@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/blur_proof_logo_final.png" alt="BlurProof Logo" width="350">
+  <img src="docs/images/blur_proof_logo_final.png" alt="BlurProof Logo" width="400">
 </p>
 
 # BlurProof
