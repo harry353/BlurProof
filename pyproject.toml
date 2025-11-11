@@ -1,0 +1,28 @@
+[project]
+name = "blurproof"
+version = "0.1.0"
+description = "A deep learning model for radio interferometric image deconvolution using synthetic dirty-clean pairs generated from Galaxy Zoo 2 and ALMA PSFs."
+authors = [{ name = "Haris" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "torch>=2.2",
+    "torchvision>=0.17",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "scipy>=1.11",
+    "scikit-image>=0.22",
+    "pillow>=10.0",
+    "tqdm>=4.66"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["utilities"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+

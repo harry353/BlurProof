@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.nbc
+*.nbi
+*.nbm
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Checkpoints / logs
+checkpoints/
+logs/
+*.log
+
+# Large data and outputs
+*.npy
+*.npz
+*.fits
+*.tar
+*.gz
+*.zip
+*.zst
+*.hdf5
+*.pt
+*.pth
+
+logo_creation.py
+blurproog_logo.svg
